@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "437363737637",
+    "project_id": "genibi-mental-fitness",
+    "storage_bucket": "genibi-mental-fitness.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437363737637:android:98baa8e09ea4168eb6ebcc",
+        "android_client_info": {
+          "package_name": "com.genibi.mentalfitness"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmuNtyQTpbbqHFXDN6CH8wmgNzJA4hv9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

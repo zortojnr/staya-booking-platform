@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { Bars3Icon, XMarkIcon, UserIcon } from '@heroicons/react/24/outline'
 import { motion, AnimatePresence } from 'framer-motion'
+import { Logo } from '../ui/logo'
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -26,14 +27,7 @@ export function Navbar() {
         <div className="flex justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <Link href="/" className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-gradient-to-br from-staya-primary to-staya-secondary rounded-lg flex items-center justify-center">
-                <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 2L2 7v10c0 5.55 3.84 9.74 9 11 5.16-1.26 9-5.45 9-11V7l-10-5z"/>
-                </svg>
-              </div>
-              <span className="text-2xl font-bold text-gradient">STAYA</span>
-            </Link>
+            <Logo size="md" showText={true} />
           </div>
 
           {/* Desktop Navigation */}
